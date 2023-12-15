@@ -8,18 +8,17 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background: black;
+    background:linear-gradient(250deg, #000000,#050202,#ff0063);
     color: #fff;
 }
 #header{
     width: 100%;
     height: 110vh; /* change here */
     background-image: url(images/ok_4.jpg);
-    /* background-size: cover;
-    background-position: center; */
+   
     background-repeat: no-repeat;
     background-position: right;
-    background-size: 80%;
+    background-size: 70%;
 }
 @keyframes fadeInUp {
     from {
@@ -360,7 +359,7 @@ form .btn2{
 .copyright i{
     color: #ebebeb;
 }
-/* ------css for small screen------ */
+
 nav .fa-solid{
     display: none;
 }
